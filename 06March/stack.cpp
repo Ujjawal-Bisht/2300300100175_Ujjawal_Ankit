@@ -19,15 +19,15 @@ int code(vector<int>&arr){
     vector<int>ans;
     stack<int>st;
     for(int i=n-1 ; i>=0 ; i--){
-        if(){
-            ans[i] = -1 ;
-        }else if(st.empty() && st.top() > arr[i]){
-            ans[i] = st.top() ;
-        }else if(st.empty() && st.top() <= arr[i]){
-            while(st.empty() && st.top() <= arr[i]){
+        // if(){
+        //     ans[i] = -1 ;
+        // }else if(st.empty() && st.top() > arr[i]){
+        //     ans[i] = st.top() ;
+        // }else if(st.empty() && st.top() <= arr[i]){
+        //     while(st.empty() && st.top() <= arr[i]){
 
-            }
-        }
+        //     }
+        // }
     }
 }
 int main(){
